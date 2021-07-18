@@ -1,0 +1,75 @@
+/* header and intro*/
+/* ============================ */
+
+@media screen and (max-width: 450px){
+    .intro{height: 500px;}
+    .intro__title{font-size: 25px;}
+    .intro__subtitle{font-size: 14px;}
+}
+
+/* @media screen and (max-width: 450px){
+    .header__link{margin-top: 5px; text-align: center;}
+    .intro__icons{top: 260px;}
+    .onmove{height: 126px;}
+} */
+
+/* description and design*/
+/* ============================ */
+
+@media screen and (max-width: 900px){
+    .desc__img{opacity: 0.2;}
+    .design__image{opacity: 0.2; right: 10px; top: 50px;}
+    .description .content,
+    .design .content{position: relative; margin: 0 auto; float: none; margin: 0 20px;}
+}
+
+
+/* gallery */
+/* ============================ */
+
+@media screen and (max-width: 1030px){
+    .gallery__imges{width: 370px; margin: 0 auto; float: none;}
+    .first__img{display: none;}
+}
+
+@media screen and (max-width: 600px){
+    .gallery{display: block;}
+    .gallery .content {margin: 0 auto 20px; float: none; padding-top: 20px;}
+    .gallery__imges{width: 296px;}
+    .last__img{width: 296px; height: 195.2px;}
+    .arrows{top: 197px}
+}
+
+
+/* email */
+/* ============================ */
+
+@media screen and (max-width: 450px){
+    .email{height: 500px;}
+    .email__form{width: 290px;}
+    .emailfield{width: 225px;}
+}
+
+/* download */
+/* ============================ */
+
+@media screen and (max-width: 650px){
+    .load__variants{width: 280px; height: 130px; flex-wrap: wrap;}
+    .variant:first-child{margin-bottom: 14px;}
+}
+
+@media screen and (max-width: 320px){
+    .variant .vari__title{width: 222px;}
+}
+
+
+/* footer */
+/* ============================ */
+
+@media screen and (max-width: 400px){
+    .footer img{display: none;}
+    .footer__desc{float: none; margin: 0 auto; width: 252px;}
+    .actions a{padding: 0 10px;}
+    .actions{font-size: 12px;}
+    .credits{font-size: 11px;}
+}
